@@ -105,7 +105,7 @@ function calificar(star) {
 
                 });
                 $("#table_body").empty();
-                $("#table_body").append("<tr><td>" + titulo + "</td><td>" + autor + "</td><td>" + año + "</td><td>" + genero + "</td><td>" + sinopsis + "</td><td>" + estrellas + "</td><td>" + enlace + "</td></tr>");
+                $("#table_body").append("<tr><td>" + titulo + "</td><td>" + autor + "</td><td>" + año + "</td><td>" + genero + "</td><td>" + sinopsis + "</td><td>" + estrellas + "</td><td> <a href='" + enlace + "'> <u> Enlace </u> </a> </td></tr>");
 
                 document.getElementById("operacion").style.display = "block";
 
